@@ -1,5 +1,5 @@
 import socket
-serverHostName = "localhost"
+serverHostName = "vpshk.itfs127.com"
 serverPort = 2333
 clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 clientSocket.connect((serverHostName, serverPort))
